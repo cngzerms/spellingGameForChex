@@ -11,6 +11,8 @@ const Game = ({ language }) => {
   const [score, setScore] = useState(0);
   const [words, setWords] = useState([]);
 
+ 
+
   useEffect(() => {
     fetch(`/api/dictionary?lang=${language}`)
       .then((response) => response.json())

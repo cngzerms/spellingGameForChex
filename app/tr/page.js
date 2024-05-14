@@ -1,8 +1,14 @@
 "use client";
-import Game from '../../components/Game';
+import dynamic from 'next/dynamic';
 
-const TurkishPage = () => {
-  return <Game language="tr" />;
-};
+const Game = dynamic(() => import('../../components/Game'), {
+  ssr: false
+});
 
-export default TurkishPage;
+export default function Page() {
+  return (
+    <div>
+      <Game language="tr" />
+    </div>
+  );
+}
