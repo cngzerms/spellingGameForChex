@@ -1,4 +1,4 @@
-# Spelling Bee Game
+# Spelling Bee Game       -->         https://spelling-game-for-chex.vercel.app/en
 
 Spelling Bee Game, React (NextJS) kullanılarak geliştirilmiş bir çoklu dilde yazılan bir heceleme oyunudur. Bu proje, Chex şirketi tarafından bir mülakat süreci için geliştirilmiş bir örnek projedir. Proje, kullanıcıların hem İngilizce hem de Türkçe versiyonlar arasında geçiş yapabilecekleri bir heceleme oyununu deneyimlemelerine olanak tanır.
 
